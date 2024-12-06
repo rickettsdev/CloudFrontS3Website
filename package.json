@@ -1,8 +1,8 @@
 {
-  "name": "cdk_test",
+  "name": "static_web",
   "version": "0.1.0",
   "bin": {
-    "cdk_test": "bin/cdk_test.js"
+    "static_web": "bin/static_web.js"
   },
   "scripts": {
     "build": "tsc",
@@ -13,14 +13,14 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "22.7.9",
+    "aws-cdk-lib": "^2.38.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
-    "aws-cdk": "2.167.2",
     "ts-node": "^10.9.2",
     "typescript": "~5.6.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.167.2",
+    "aws-cdk-lib": "^2.168.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
   }
